@@ -1,0 +1,16 @@
+{
+ "voice": "am_michael",
+ "sr": 24000,
+ "seconds": {
+  "hook": 6.229,
+  "setting": 8.107,
+  "action1": 6.805,
+  "action2": 7.445,
+  "action3": 7.211,
+  "snap": 9.216,
+  "deadpan": 4.245,
+  "explanation": 15.104,
+  "consequence": 7.424,
+  "twist": 3.627
+ }
+}

@@ -1,11 +1,11 @@
 // "How the Rich Borrow From Their Own Funeral": 2D flat-toon short (1080x1920, 30 fps). Script: remotion/shorts/life-insurance/SCRIPT.md
-// Timing is estimated at ~3.7 words/s. Change TIMING (seconds per beat) once voice.wav exists; every scene reads its length from it.
+// TIMING (seconds per beat) comes from the synthesized voice beats; every scene reads its length from it.
 import React from 'react';
 import {AbsoluteFill, Sequence} from 'remotion';
 import {S1, S2, S3, S4, S5, S6, S7, S8, S9, S10} from './Scenes';
 
 export const FPS = 30;
-export const TIMING = [5.0, 6.5, 6.8, 6.0, 6.2, 8.0, 3.2, 13.5, 6.5, 3.8]; // hook, setting, action1-3, snap, deadpan, explanation, consequence, twist
+export const TIMING = [6.73, 8.61, 7.3, 7.95, 7.71, 9.72, 4.75, 15.6, 7.92, 4.13]; // = voice beat length + 0.5 s (shorts/life-insurance/voice/durations.json): hook, setting, action1-3, snap, deadpan, explanation, consequence, twist
 export const FRAMES = TIMING.map((s) => Math.round(s * FPS));
 export const GOLD_TOTAL = FRAMES.reduce((a, b) => a + b, 0);
 const SCENES = [S1, S2, S3, S4, S5, S6, S7, S8, S9, S10];
