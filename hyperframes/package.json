@@ -1,1 +1,1 @@
-{"name":"hyperframes-videos","version":"1.0.0","private":true,"dependencies":{"hyperframes":"^0.9.97"}}
+{"name":"hyperframes-videos","version":"1.0.0","private":true,"dependencies":{"esbuild":"^0.28.2","hyperframes":"^0.9.97","react":"^19.3.1","react-dom":"^19.3.1","remotion":"^4.0.546"}}
